@@ -40,10 +40,9 @@ Change -s to scrapbook, minimalist, or watercolor to try other styles.
 
 1. AI API Usage Locations : 
 extract_quotes() in curiosity_journal.py: uses Hugging Face API for quote extraction.
-
 generate_with_stability_ai(): uses Stability AI image-to-image endpoint to stylize image.
 
-3. Output :
+2. Output :
 A final image like my_journal.png will be created.
 Quotes are beautifully overlaid with chosen style and layout.
 
