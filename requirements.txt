@@ -1,9 +1,7 @@
-openai==1.10.0
-pillow==10.0.0
-diffusers==0.19.3
-transformers==4.30.2
-accelerate==0.21.0
-safetensors==0.3.1
-torch==2.0.1
-python-dotenv==1.0.0
-flask==2.3.3
+Pillow==10.2.0
+requests==2.31.0
+python-dotenv==1.0.1
+transformers==4.37.2
+huggingface-hub==0.20.3
+torch>=2.0.0
+sentencepiece==0.1.99  # For some Hugging Face models (e.g., TinyLlama)
