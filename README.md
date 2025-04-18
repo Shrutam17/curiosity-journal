@@ -33,6 +33,10 @@ STABILITY_API_KEY=your_stability_ai_key_here
 ## How to Run
 python curiosity_journal.py examples/sample_conversation.txt examples/images/image1.jpg examples/images/image2.jpg -o my_journal.png -s artistic_collage
 
+Change -s to scrapbook, minimalist, or watercolor to try other styles.
+
+
+
 
 1. AI API Usage Locations
 extract_quotes() in curiosity_journal.py: uses Hugging Face API for quote extraction.
